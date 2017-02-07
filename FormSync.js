@@ -11,7 +11,8 @@ FormSync.prototype.init= function(cb){
     var head = document.getElementsByTagName('head')[0];
     var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/localforage/1.4.3/localforage.min.js';
+    //script.src = 'https://cdnjs.cloudflare.com/ajax/libs/localforage/1.4.3/localforage.min.js';
+    script.src = '//cdn.bootcss.com/localforage/1.4.3/localforage.min.js';
     script.onreadystatechange = cb;
     script.onload = cb;
     head.appendChild(script);
