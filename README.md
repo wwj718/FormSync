@@ -73,7 +73,8 @@ Currently relies on an `id` attribute for all elements (`input`, `select`, and `
 # 本地与云端同步
 *  sync
 *  使用时间戳，本地记录同步与否(flag) 
-  *  多端冲突？ 提交完清理本地！页面刷新显示云端状态 
+  *  多端冲突？ 提交完清理本地！页面刷新显示云端状态
+  
 ### Quick note on security:
 1. If you don't want to sync an input field (like a credit card field) - do not add an input ID to that field (more ways to opt-in/out fields in the future)
 2. By default, this will *not* work on input type=password fields.
