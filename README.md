@@ -79,8 +79,10 @@ Currently relies on an `id` attribute for all elements (`input`, `select`, and `
 *  LocalForage
 *  https://www.w3ctech.com/topic/47 本地数据存储与同步
 *  https://github.com/pouchdb/pouchdb
+  *  https://pouchdb.com/getting-started.html
 *  最近新的一个Hoodie，提出了一个叫Offline First的理念
-
+*  kinto 
+  *  js client
 
 ### Quick note on security:
 1. If you don't want to sync an input field (like a credit card field) - do not add an input ID to that field (more ways to opt-in/out fields in the future)
