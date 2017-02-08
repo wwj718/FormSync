@@ -83,6 +83,7 @@ Currently relies on an `id` attribute for all elements (`input`, `select`, and `
 *  最近新的一个Hoodie，提出了一个叫Offline First的理念
 *  kinto 
   *  js client
+  *  http://kinto.readthedocs.io/en/stable/overview.html#synchronisation
 
 ### Quick note on security:
 1. If you don't want to sync an input field (like a credit card field) - do not add an input ID to that field (more ways to opt-in/out fields in the future)
