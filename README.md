@@ -75,6 +75,13 @@ Currently relies on an `id` attribute for all elements (`input`, `select`, and `
 *  使用时间戳，本地记录同步与否(flag) 
   *  多端冲突？ 提交完清理本地！页面刷新显示云端状态
   
+# 参考
+*  LocalForage
+*  https://www.w3ctech.com/topic/47 本地数据存储与同步
+*  https://github.com/pouchdb/pouchdb
+*  最近新的一个Hoodie，提出了一个叫Offline First的理念
+
+
 ### Quick note on security:
 1. If you don't want to sync an input field (like a credit card field) - do not add an input ID to that field (more ways to opt-in/out fields in the future)
 2. By default, this will *not* work on input type=password fields.
